@@ -11,3 +11,11 @@ export const TitleWrapper = styled.div`
     margin-top: 45px;
     margin-bottom: 45px;
 `;
+
+export const CardWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    //border: 1px solid red;
+   
+
+`
