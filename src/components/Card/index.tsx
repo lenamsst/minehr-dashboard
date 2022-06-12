@@ -16,10 +16,11 @@ export default function Card ({title, infoIcon, menuIcon}: PropsCard) {
                 <img src={infoIcon} alt="InfoCard"/>
                 <MenuIcon> 
                 <img src={menuIcon} alt="MenuCard"/>        
-                    
-                </MenuIcon>                 
+              
+                </MenuIcon> 
+                
             </TitleCard> 
-        
+  
         </div>
 
     </BackgroundCard>    

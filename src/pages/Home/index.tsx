@@ -1,39 +1,42 @@
 import Header from '../../components/Header';
 import Title from '../../components/Title';
-import { Wrapper, TitleWrapper, CardWrapper} from './styles';
+import { Wrapper, TitleWrapper, CardWrapper, CardWrapperScatter, WrapperChart} from './styles';
 import IconFilter from '../../assets/images/filter.svg';
 import Button from '../../components/Button';
-import Card from '../../components/Card';
-import infoIcon from '../../assets/images/info.svg';
-import menuIcon from '../../assets/images/menu.svg';
+import ChartBar from '../../components/ChartBar';
+import TasksChartScatter from '../../components/ChartScatter';
+
 
 
 
 function Home () {
     return (
       <div>
-            <Header/>  
+            <Header/>          
             <Wrapper>
-                <TitleWrapper>
+                <TitleWrapper>               
                 <Title 
                     title="Dashboard"
-                    subtitle="Desafio Técnico Front-end"
+                    subtitle="Desafio Técnico Front-end"                    
                 />
-                <Button image={IconFilter} text="Filtrar" />              
-                </TitleWrapper>
-                <CardWrapper>
-                    <Card
-                        title="Barras"
-                        infoIcon={infoIcon}
-                        menuIcon={menuIcon}
-                    />
-                    <Card
-                        title="Scatter"
-                        infoIcon={infoIcon}
-                        menuIcon={menuIcon}
-                    />
-                </CardWrapper>
-            </Wrapper>      
+          
+                <Button image={IconFilter} text="Filtrar" />                   
+                </TitleWrapper>          
+               <WrapperChart>
+                <CardWrapper>   
+            
+                <ChartBar/>              
+                  
+                </CardWrapper>  
+                
+                <CardWrapperScatter >
+                 <TasksChartScatter></TasksChartScatter>
+          
+                </CardWrapperScatter>
+                </WrapperChart>
+               
+            </Wrapper>    
+          
         </div>
     )
 }
