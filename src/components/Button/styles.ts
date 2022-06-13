@@ -15,8 +15,9 @@ export const BackgroundButton = styled.a`
 
     :hover {
     background-color: #8DD471;
-    transition: 3s;
-    
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
   }
 
 `

@@ -33,7 +33,7 @@ export const CardWrapper = styled.div`
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     border-radius: 23px;
     margin-right: 20px;   
-
+    //border: 1px solid red;
     .apexcharts-toolbar-custom-icon {
         display: flex;    
         margin-left: -31em;

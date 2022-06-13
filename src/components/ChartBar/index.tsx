@@ -19,9 +19,10 @@ const TasksChart: React.FC<Props> = ({ image }) => {
               color: "#5D405C"   
                                  
             },  
-               
-                
-          
+                   
+        },
+        fill: {
+          colors: ['#8DD471']
         },
           responsive: [{
             breakpoint: 700,
@@ -49,51 +50,51 @@ const TasksChart: React.FC<Props> = ({ image }) => {
           height: 340,
           width: 680,   
           background: '#FFFFFF',
-          fontFamily: "Montserrat",
+          fontFamily: "Montserrat",      
           toolbar: {              
             offsetY: 15,    
             offsetX: -8,      
-            tools: {              
-              download: '<img src="https://i.imgur.com/z9wfulb.png" class="" width="22">',
-              customIcons: [{ 
-                icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="15" height="15" >',
-                index: -1,
-                title: 'Gráfico de barras',
-                class: 'custom-icon',
-                click: function (chart, options, e) {
-                  console.log("clicked custom-icon")
+          tools: {              
+            download: '<img src="https://i.imgur.com/z9wfulb.png" class="" width="22">',
+            customIcons: [{ 
+              icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="15" height="15" >',
+              index: -1,
+              title: 'Países mais populosos do mundo (2022)',
+              class: 'custom-icon',
+              click: function (chart, options, e) {
+               console.log("clicked custom-icon")
                 }
-                }]  
-                     
-            }, 
-           
-           
+                }]                  
+            },            
           },
-          
-          
         },
 
         plotOptions: {
           bar: {
             borderRadius: 0,
-            horizontal: true,
+            horizontal: true
           
           }
           
         },
         dataLabels: {
-          enabled: false
+          enabled: true,
+          style: {
+            colors: ['#5D405C']
+          },
         },
         xaxis: {
-          categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-            'United States', 'China', 'Germany'
+          categories: ['Coreia do Sul', 'Canadá', 'Reino Unido', 'Holanda', 'Itália', 'França', 'Japão',
+            'Estados Unidos', 'China', 'Alemanha'
           ],
         }
       }
   
     const series = [
        {
+        name: 'População',
         data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+        
       }
       
     ];
