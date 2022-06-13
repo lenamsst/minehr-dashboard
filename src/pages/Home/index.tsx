@@ -2,7 +2,7 @@ import Header from '../../components/Header';
 import Title from '../../components/Title';
 import { Wrapper, TitleWrapper, CardWrapper, CardWrapperScatter, WrapperChart} from './styles';
 import IconFilter from '../../assets/images/filter.svg';
-import Button from '../../components/Button';
+import ButtonFilter from '../../components/Button';
 import ChartBar from '../../components/ChartBar';
 import TasksChartScatter from '../../components/ChartScatter';
 
@@ -20,15 +20,15 @@ function Home () {
                     subtitle="Desafio Técnico Front-end"                    
                 />
           
-                <Button image={IconFilter} text="Filtrar" />                   
+                <ButtonFilter image={IconFilter} text="Filtrar" />                   
                 </TitleWrapper>          
                <WrapperChart>
                 <CardWrapper>   
             
-                <ChartBar/>              
+                <ChartBar/> 
                   
                 </CardWrapper>  
-                
+            
                 <CardWrapperScatter >
                  <TasksChartScatter></TasksChartScatter>
           

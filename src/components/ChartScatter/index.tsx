@@ -22,6 +22,7 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
         },     
         chart: {
             height: 350,
+            width: 350,
             type: 'scatter',
             zoom: {
               enabled: true,
@@ -29,8 +30,8 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
             },
             toolbar: {
                 show: true,
-                offsetY: 15,    
-                offsetX: -9,     
+                offsetY: 22,    
+                offsetX: -14,     
                 tools: {
                   pan: false,
                   zoom: false,
@@ -39,7 +40,7 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
                   reset: false,
                   download: '<img src="https://i.imgur.com/z9wfulb.png" class="" width="22">',
                   customIcons: [{ 
-                    icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="22" >',
+                    icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="15" height="15" >',
                     index: -1,
                     title: 'Gráfico scatter',
                     class: 'custom-icon',
@@ -51,7 +52,19 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
           },
           offsetX:23,
             offsetY: 15,
+
+            
         },
+        responsive: [
+            {
+              breakpoint: 721,
+              options: {
+                chart: {
+                  width: "86%",
+                },
+              },
+            },
+          ],
           xaxis: {
             tickAmount: 10,
             labels: {

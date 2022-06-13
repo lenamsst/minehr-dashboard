@@ -6,10 +6,11 @@ export const TitleContainer  = styled.h1 `
 `;
 
 export const TitleStyle  = styled.div `
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #5D405C;
     font-size: 28px;
     font-weight: 700;
+    
 `;
 
 export const SubTitleStyle = styled.div`

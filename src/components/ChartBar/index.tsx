@@ -24,13 +24,14 @@ const TasksChart: React.FC<Props> = ({ image }) => {
           
         },
           responsive: [{
-            breakpoint: 640,
+            breakpoint: 700,
             options: {
               chart: {
+                width: 350,
                 toolbar: {
                   offsetX: 10,
-                  offsetY: -20,
-                },
+                  offsetY: 15,
+                                 },
               },
               plotOptions: {
                 bar: {
@@ -45,17 +46,17 @@ const TasksChart: React.FC<Props> = ({ image }) => {
     
         chart: {
           type: 'bar',         
-          height: 350,
+          height: 340,
           width: 680,   
           background: '#FFFFFF',
           fontFamily: "Montserrat",
           toolbar: {              
-            offsetY: 12,    
-            offsetX: -12,      
+            offsetY: 15,    
+            offsetX: -8,      
             tools: {              
               download: '<img src="https://i.imgur.com/z9wfulb.png" class="" width="22">',
               customIcons: [{ 
-                icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="22" >',
+                icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="15" height="15" >',
                 index: -1,
                 title: 'Gráfico de barras',
                 class: 'custom-icon',
@@ -68,6 +69,7 @@ const TasksChart: React.FC<Props> = ({ image }) => {
            
            
           },
+          
           
         },
 

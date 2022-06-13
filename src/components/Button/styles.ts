@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BackgroundButton = styled.button`
+export const BackgroundButton = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,12 @@ export const BackgroundButton = styled.button`
     img {        
         margin-right: 13px;
     }
+
+    :hover {
+    background-color: #8DD471;
+    transition: 3s;
+    
+  }
 
 `
 
