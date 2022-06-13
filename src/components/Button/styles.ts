@@ -8,6 +8,7 @@ export const BackgroundButton = styled.a`
   height: 40px;
   background-color: #5d405c;
   border-radius: 10px;
+  margin-right: 36px;
 
   img {
     margin-right: 13px;

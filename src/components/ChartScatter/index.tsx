@@ -19,7 +19,6 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
     },
     chart: {
       height: 350,
-      width: 350,
       type: "scatter",
       zoom: {
         enabled: true,
@@ -27,8 +26,8 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
       },
       toolbar: {
         show: true,
-        offsetY: 22,
-        offsetX: -14,
+        offsetY: 20,
+        offsetX: -10,
         tools: {
           pan: false,
           zoom: false,
@@ -193,7 +192,7 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
       options={options}
       series={series as ApexAxisChartSeries}
       height={340}
-      width={610}
+      width={605}
     />
   );
 };
