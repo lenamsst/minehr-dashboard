@@ -1,11 +1,7 @@
-import { Container } from './styles';
+import { Container } from "./styles";
 
-function Header () {
-    return (
-
-    <Container/>  
-           
-);
+function Header() {
+  return <Container />;
 }
 
 export default Header;
