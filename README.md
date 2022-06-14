@@ -60,10 +60,10 @@ $ git clone https://github.com/lenamsst/minehr-dashboard
 $ cd minehr-dashboard
 
 # Instale as dependências
-$ yarn install
+$ npm install
 
 # Rode a aplicação
-$ yarn start  
+$ npm start  
   ```
 ## 🚀 Deploy da aplicação:
  - <a href="https://dashboard-minehr.herokuapp.com/" > Via Heroku
