@@ -11,13 +11,17 @@
   font-size: 14px;
   line-height: 17px;
   color: #f7f7f7;
+
  
   }
 
-  .btn-primary:hover { 
+  .btn-check:focus+.btn-primary, .btn-primary:focus,  .btn-primary:hover { 
     background-color: #8dd471;
+    border-color: #8dd471;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 /1%);
+
   }
- 
+
 
   .modalcenter{
     background-color: #8dd471;

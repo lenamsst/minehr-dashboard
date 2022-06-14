@@ -8,7 +8,7 @@ function MyVerticallyCenteredModal(props) {
     <Modal
       {...props}
       size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
+     
       centered
     >
       <Modal.Header closeButton>
@@ -33,7 +33,7 @@ function ButtonFilter() {
 
   return (
    <div>
-      <Button type='button'variant="primary" onClick={() => setModalShow(true)}>
+      <Button type='button' variant="primary" onClick={() => setModalShow(true)}>
        <FaFilter></FaFilter>
         <span className="textfilter">Filtrar</span>
       </Button>
