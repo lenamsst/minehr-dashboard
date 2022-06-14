@@ -28,7 +28,7 @@ function Home() {
           </CardWrapper>
 
           <CardWrapperScatter>
-            <TasksChartScatter></TasksChartScatter>
+            <TasksChartScatter />
           </CardWrapperScatter>
         </WrapperChart>
       </Wrapper>

@@ -3,6 +3,7 @@ import { Button, Modal } from "react-bootstrap";
 import {} from "./styles.css";
 import { FaFilter } from "react-icons/fa";
 
+/* Modal bootstrap */
 function MyVerticallyCenteredModal(props) {
   return (
     <Modal className="modalborda" {...props} size="lg" centered>

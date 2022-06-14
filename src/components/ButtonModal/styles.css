@@ -1,6 +1,5 @@
-
-
-.btn-primary {
+.btn-primary 
+{
 	background-color: #5d405c;
   border: none;
   width: 100px;
@@ -11,50 +10,58 @@
   font-size: 14px;
   line-height: 17px;
   color: #f7f7f7;
+}
 
- 
-  }
-
-  .btn-check:focus+.btn-primary, .btn-primary:focus,  .btn-primary:hover { 
+.btn-check:focus+.btn-primary, .btn-primary:focus,  .btn-primary:hover 
+  { 
     background-color: #8dd471;
     border-color: #8dd471;
     box-shadow: 0 0 0 0.25rem rgb(0 0 0 /1%);
-
   }
 
-
-  .modalcenter{
+.modalcenter
+  {
     background-color: #8dd471;
     font-family: "Montserrat";
     text-align: center; 
     font-size: 20px;
     color:#5d405c;
-    font-weight:700;  
-   
+    font-weight:700;     
   }
-
   
-  .modaltitle{
+.modaltitle
+ {
     font-family: "Montserrat";
     font-size: 50px;
     color:#5d405c; 
     font-weight:700;
-
   }
 
-  .textfilter{
+.textfilter
+  {
     margin-left:13px;
   }
 
-  .modalbackground {
+.modalbackground
+ {
     background-color: #CEC6CE;
   }
 
-  .modal-header {
+.modal-header 
+ {
     border-bottom: none;
+    border-radius: 40px 40px 0 0;
   }
 
-  .modal-footer {
+.modal-footer
+ {
     background-color: #CEC6CE;
     border-top: none;
+    border-radius: 0 0 40px 40px;   
+ }
+
+.modal-content
+  {
+    border-radius: 20px;
+    background-color: #CEC6CE;
   }

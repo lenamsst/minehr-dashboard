@@ -27,7 +27,7 @@ export const TitleWrapper = styled.div`
 export const CardWrapper = styled.div`
   display: flex;
   justify-content: center;
-  width: 650px;
+  width: 680px;
   height: 359px;
   background-color: #ffffff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);

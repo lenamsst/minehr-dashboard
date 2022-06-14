@@ -1,7 +1,7 @@
-import ReactApexChart, { Props } from "react-apexcharts";
+import ReactApexChart from "react-apexcharts";
 import { ApexOptions } from "apexcharts";
 
-const TasksChartScatter: React.FC<Props> = ({ image }) => {
+const TasksChartScatter: React.FC = () => {
   const options: ApexOptions = {
     title: {
       text: "Scatter",
@@ -62,7 +62,7 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
         },
       },
     ],
-    colors: ['#8DD471', '#5D405C', '#CEC6CE'],
+    colors: ["#8DD471", "#5D405C", "#CEC6CE"],
     xaxis: {
       tickAmount: 10,
       labels: {

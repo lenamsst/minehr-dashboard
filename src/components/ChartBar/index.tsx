@@ -1,7 +1,11 @@
-import ReactApexChart, { Props } from "react-apexcharts";
+import ReactApexChart from "react-apexcharts";
 import { ApexOptions } from "apexcharts";
 
-const TasksChart: React.FC<Props> = ({ image }) => {
+/* Gráfico com estilização, responsividade e dataseries fornecidos pela própria lib ApexCharts 
+   lib ou typescript não reconheceu img.svg localmente, portanto os icones 
+   foram provisoriamente upados em link externo para prezar a fidelidade da UI.   
+*/
+const TasksChart: React.FC = ()  => {
   const options: ApexOptions = {
     title: {
       text: "Barras",
@@ -29,7 +33,7 @@ const TasksChart: React.FC<Props> = ({ image }) => {
             toolbar: {
               offsetX: 10,
               offsetY: 15,
-            },          
+            },
           },
           plotOptions: {
             bar: {
@@ -65,10 +69,9 @@ const TasksChart: React.FC<Props> = ({ image }) => {
                 console.log("clicked custom-icon");
               },
             },
-          ],          
+          ],
         },
       },
-      
     },
 
     plotOptions: {
