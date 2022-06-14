@@ -57,11 +57,12 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
         breakpoint: 721,
         options: {
           chart: {
-            width: "86%",
+            width: "90%",
           },
         },
       },
     ],
+    colors: ['#8DD471', '#5D405C', '#CEC6CE'],
     xaxis: {
       tickAmount: 10,
       labels: {

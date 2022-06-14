@@ -17,18 +17,23 @@ export const TitleWrapper = styled.div`
   justify-content: space-between;
   margin-top: 45px;
   margin-bottom: 45px;
+
+  @media screen and (max-width: 540px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const CardWrapper = styled.div`
   display: flex;
   justify-content: center;
-  width: 680px;
+  width: 650px;
   height: 359px;
   background-color: #ffffff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 23px;
   margin-right: 30px;
-
+  
   .apexcharts-toolbar-custom-icon {
     display: flex;
     margin-left: -31em;

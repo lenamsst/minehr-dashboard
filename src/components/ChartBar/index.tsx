@@ -22,14 +22,14 @@ const TasksChart: React.FC<Props> = ({ image }) => {
     },
     responsive: [
       {
-        breakpoint: 730,
+        breakpoint: 700,
         options: {
           chart: {
             width: 350,
             toolbar: {
               offsetX: 10,
               offsetY: 15,
-            },
+            },          
           },
           plotOptions: {
             bar: {
@@ -47,7 +47,7 @@ const TasksChart: React.FC<Props> = ({ image }) => {
       type: "bar",
       height: 340,
       width: 680,
-      background: "#FFFFFF",
+      background: "transparent",
       fontFamily: "Montserrat",
       toolbar: {
         offsetY: 15,
@@ -57,7 +57,7 @@ const TasksChart: React.FC<Props> = ({ image }) => {
             '<img src="https://i.imgur.com/z9wfulb.png" class="" width="22">',
           customIcons: [
             {
-              icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="15" height="15" >',
+              icon: '<img src="https://i.imgur.com/5z9o7cN.png" width="15" height="15">',
               index: -1,
               title: "Países mais populosos do mundo (2022)",
               class: "custom-icon",
@@ -65,9 +65,10 @@ const TasksChart: React.FC<Props> = ({ image }) => {
                 console.log("clicked custom-icon");
               },
             },
-          ],
+          ],          
         },
       },
+      
     },
 
     plotOptions: {

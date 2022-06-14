@@ -5,8 +5,8 @@ import { FaFilter } from "react-icons/fa";
 
 function MyVerticallyCenteredModal(props) {
   return (
-    <Modal {...props} size="lg" centered>
-      <Modal.Header closeButton>
+    <Modal className="modalborda" {...props} size="lg" centered>
+      <Modal.Header className="modalbackground" closeButton>
         <Modal.Title className="modaltitle" id="contained-modal-title-vcenter">
           Em Criação!
         </Modal.Title>
