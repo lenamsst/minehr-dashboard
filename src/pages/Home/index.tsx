@@ -7,12 +7,13 @@ import {
   CardWrapperScatter,
   WrapperChart,
 } from "./styles";
-import IconFilter from "../../assets/images/filter.svg";
-import ButtonFilter from "../../components/Button";
 import ChartBar from "../../components/ChartBar";
 import TasksChartScatter from "../../components/ChartScatter";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ButtonFilter from "../../components/ButtonModal";
 
 function Home() {
+  
   return (
     <div>
       <Header />
@@ -20,7 +21,8 @@ function Home() {
         <TitleWrapper>
           <Title title="Dashboard" subtitle="Desafio Técnico Front-end" />
 
-          <ButtonFilter image={IconFilter} text="Filtrar" />
+         <ButtonFilter/>
+       
         </TitleWrapper>
         <WrapperChart>
           <CardWrapper>

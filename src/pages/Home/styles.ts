@@ -80,3 +80,4 @@ export const WrapperChart = styled.div`
     gap: 20px;
   }
 `;
+

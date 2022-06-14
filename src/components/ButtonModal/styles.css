@@ -1,0 +1,43 @@
+
+
+.btn-primary {
+	background-color: #5d405c;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f7f7f7;
+ 
+  }
+
+  .btn-primary:hover { 
+    background-color: #8dd471;
+  }
+ 
+
+  .modalcenter{
+    background-color: #8dd471;
+    font-family: "Montserrat";
+    text-align: center; 
+    font-size: 20px;
+    color:#5d405c;
+    font-weight:700;  
+   
+  }
+
+  
+  .modaltitle{
+    font-family: "Montserrat";
+    font-size: 40px;
+    color:#5d405c; 
+    font-weight:700;   
+
+  }
+
+  .textfilter{
+    margin-left:13px;
+  }
