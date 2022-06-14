@@ -9,11 +9,10 @@ import {
 } from "./styles";
 import ChartBar from "../../components/ChartBar";
 import TasksChartScatter from "../../components/ChartScatter";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import ButtonFilter from "../../components/ButtonModal";
 
 function Home() {
-  
   return (
     <div>
       <Header />
@@ -21,8 +20,7 @@ function Home() {
         <TitleWrapper>
           <Title title="Dashboard" subtitle="Desafio Técnico Front-end" />
 
-         <ButtonFilter/>
-       
+          <ButtonFilter />
         </TitleWrapper>
         <WrapperChart>
           <CardWrapper>

@@ -26,7 +26,7 @@ const TasksChartScatter: React.FC<Props> = ({ image }) => {
       },
       toolbar: {
         show: true,
-        offsetY: 20,
+        offsetY: 21,
         offsetX: -10,
         tools: {
           pan: false,

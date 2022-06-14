@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.main`
   max-width: 1440px;
   margin: auto;
- 
 
   @media only screen and (max-width: 1439px) {
     max-width: 96vw;
@@ -18,7 +17,6 @@ export const TitleWrapper = styled.div`
   justify-content: space-between;
   margin-top: 45px;
   margin-bottom: 45px;
-  
 `;
 
 export const CardWrapper = styled.div`
@@ -31,12 +29,10 @@ export const CardWrapper = styled.div`
   border-radius: 23px;
   margin-right: 30px;
 
-  
   .apexcharts-toolbar-custom-icon {
     display: flex;
     margin-left: -31em;
     margin-top: 3px;
-    
   }
   @media only screen and (max-width: 720px) {
     height: 359px;
@@ -59,7 +55,6 @@ export const CardWrapperScatter = styled.div`
     display: flex;
     margin-left: -28.9em;
     margin-top: 1px;
-    
   }
   @media only screen and (max-width: 720px) {
     height: 359px;
@@ -80,4 +75,3 @@ export const WrapperChart = styled.div`
     gap: 20px;
   }
 `;
-

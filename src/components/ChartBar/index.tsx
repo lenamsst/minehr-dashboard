@@ -22,7 +22,7 @@ const TasksChart: React.FC<Props> = ({ image }) => {
     },
     responsive: [
       {
-        breakpoint: 700,
+        breakpoint: 730,
         options: {
           chart: {
             width: 350,
