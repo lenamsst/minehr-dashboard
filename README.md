@@ -5,7 +5,7 @@
      <td align="center" width="900px;">
         <img src="https://user-images.githubusercontent.com/85361518/173418275-dd7702b9-58b7-4c3b-9334-bfedbe2b69ec.png" width="150px;" align="left" alt="github"/>
        <h1 align="center" >MINEHR | DESAFIO TÉCNICO FRONT-END</h1><BR>
-        <h1 align="bottom" ><a href="https://github.com/lenamsst" >:bar_chart: www.dashboardminehr.com.br</h1><BR>
+        <h1 align="bottom" ><a href="https://dashboard-minehr.herokuapp.com/" >:bar_chart: www.dashboardminehr.com.br</h1><BR>
         <sub>
         </sub>
       </a>
@@ -41,13 +41,15 @@ A aplicação terá uma tela principal, contendo o título da tela e 2 gráficos
 
 ## 🛠 Tecnologias:
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram usadas na construção do desafio:
 
 | Desenvolvimento       | Bibliotecas           | Padronização Código  |
 | ------------- |:-------------:| -----:|
 | ReactJs      | ApexCharts | Prettier |
-| Typescript      | Styled-components      |   Eslint |
-
+| JavaScript      | Styled-components      |   Eslint |
+| TypeScript      | React-bootstrap |         --     |
+|   --    | React-Icons |      --        |   
+|    --   | Webpack |        --      |          
 ## :package: Rodando a aplicação localmente:
   
   ```
@@ -63,6 +65,11 @@ $ yarn install
 # Rode a aplicação
 $ yarn start  
   ```
+## 🚀 Deploy da aplicação:
+ - <a href="https://dashboard-minehr.herokuapp.com/" > Via Heroku
+ - <a href="https://minehr-dashboard-blrcfd2n3-lenamsst.vercel.app/" > Via Vercel
+       
+       
 ## 💻 Desenvolvido por:
   
 <table align="left">
